@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swapdisplay=swap');
+@import "tailwindcss";
+@theme{
+  --color-primary: #2563eb;
+   --color-secondary: #fbbf24;
+}
+*{
+  font-family: Outfit;
+  /* background-color: rgba(0, 0, 0, 0.272); */
+}
+body {
+  background-color: black;
+  color: white;
+}
+.font-playFair{
+   font-family: Playfair;
+}
+.font-Ubuntu{
+   font-family: Ubuntu  !important;
+}
+
+
